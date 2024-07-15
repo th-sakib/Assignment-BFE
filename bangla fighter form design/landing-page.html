@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bangla Fighter</title>
+    <link rel="stylesheet" href="landing-page.css">
+</head>
+<body>
+    <header>
+        <nav class="flex space-between">
+            <div class="logo flex">
+                <img src="https://member.banglafighter.com/crm-assets/img/logo.png" alt="Bangla Fighter Logo">
+                <p>বাংলা ফাইটার</p>
+            </div>
+            <div class="navbar">
+                <ul class="flex">
+                    <li><a href="#">হোম</a></li>
+                    <li><a href="#">আমাদের সম্পর্কে</a></li>
+                    <li>
+                        <a href="#">কোর্স সমূহ</a>
+                        <div class="dropdown">
+                            <ul class="dropdown-ul">
+                                <li><a href="#">ওয়েব ডেভেলপমেন্ট</a></li>
+                                <li><a href="#">ইলেকট্রিকাল ইলেকট্রনিক্স</a></li>
+                                <li><a href="#">কম্পিউটার</a></li>
+                                <li><a href="#">শর্ট কোর্স</a></li>
+                                <li><a href="#">সকল কোর্স</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#">সেবা সমূহ</a></li>
+                    <li><a href="#">লগ ইন</a></li>
+                    <li><a href="#">রেজিস্ট্রেশন</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="flex">
+        <div class="course-info">
+            <h1>বাংলা ফাইটার <br> ইঞ্জিনিয়ারিং</h1>
+            <h2>আমাদের পেশাগত প্রশিক্ষণের মাধ্যমে আপনার কর্মজীবন সমৃদ্ধ করুন।</h2>
+            <button class="btn">কোর্স সমূহ</button>
+        </div>
+        <div class="form-section">
+            <form action="#">
+                <p>রেজিস্ট্রেশন করুন</p>
+                <div class="flex space-between gap">
+                    <div class="item1">
+                        <label for="name"><span style="color: red; padding-right: .4rem">*</span>Name</label>
+                        <input type="text" name="name" id="name" required>
+                    </div>
+    
+                    <div class="item2">
+                        <label for="phone"><span style="color: red; padding-right: .4rem">*</span>Mobile</label>
+                        <input type="tel" name="phone" id="phone" value="+880" maxlength="14" required>
+                    </div>
+    
+                    <div class="item3">
+                        <label for="password"><span style="color: red; padding-right: .4rem">*</span>Password</label>
+                        <input type="password" name="password" id="password" required>
+                    </div>
+                </div>
+                <div class="flex space-between gap">
+                    <div class="item4">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div class="item5">
+                        <label for="emcon">Emergency Contact</label>
+                        <input type="tel" name="emcon" id="emcon">
+                    </div>
+    
+                    <div class="item6">
+                        <label for="home"><span style="color: red; padding-right: .4rem">*</span>Home District</label>
+                        <select name="home" id="home" required>
+                            <option value="select" selected>Select</option>
+                            <option value="sherpur">Sherpur</option>
+                            <option value="netrakona">Netrakona</option>
+                            <option value="mymensingh">Mymensingh</option>
+                            <option value="jamalpur">Jamalpur</option>
+                            <option value="sylhet">Sylhet</option>
+                            <option value="sunamoani">Sunamoani</option>
+                            <option value="rangpur">Rangpu</option>
+                            <option value="thakurgaon">Thakurgaon</option>
+                            <option value="habiganj">Habiganj</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="flex space-between gap">
+                    <div class="item7">
+                        <label for="subject">Study In (Diploma Engineering)</label>
+                        <input type="text" name="subject" id="subject">
+                    </div>
+    
+                    <div class="item8">
+                        <label for="ins-name">Institute Name</label>
+                        <input type="text" name="ins-name" id="ins-name">
+                    </div>
+                </div>
+                <div class="flex space-between gap">
+                    <div class="item9">
+                        <label for="tech">Technology</label>
+                        <select name="tech" id="tech">
+                            <option value="technology" disabled selected>Technology</option>
+                            <option value="electronics">Electronics</option>
+                            <option value="computer">Computer</option>
+                            <option value="electrical">Electrical</option>
+                            <option value="mechanical">Mechanical</option>
+                            <option value="civil">Civil</option>
+                        </select>
+                    </div>
+                    <div class="item10">
+                        <label for="semester">Semester (8th)</label>
+                        <input type="text" name="semester" id="semester">
+                    </div>
+                    <div class="item11">
+                        <label for="shift">Shift</label>
+                        <select name="shift" id="shift">
+                            <option value="shiftnology" disabled selected>Shift</option>
+                            <option value="first">First</option>
+                            <option value="second">Second</option>
+                            <option value="notApplicable">Not Applicable</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="flex space-between gap">
+                    <div class="item12">
+                        <label for="present-address">Present Address</label>
+                        <textarea name="present-address" id="present-address"></textarea>
+                    </div>
+                    <div class="item13">
+                        <label for="permanent-address">Permanent Address</label>
+                        <textarea name="permanent-address" id="permanent-address"></textarea>
+                    </div>
+                </div>
+                <div class="comment">
+                    <label for="comment">Comment</label>
+                    <textarea name="comment" id="comment"></textarea>
+                </div>
+                <div class="button">
+                    <button type="submit">Register</button>
+                    <button type="button">Login</button>
+                    <button style="background-color: gray;" type="reset">reset</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>

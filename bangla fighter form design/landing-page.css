@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* padding: 0 6.6rem; */
+}
+
+header {
+    background: linear-gradient(110deg, #213b52 0%, rgb(9, 94, 71) 35%, rgb(9, 95, 71) 100%);
+    color: #FFF;
+    position: sticky;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.logo p {
+    font-size: 1.728rem;
+}
+
+/* utility styles */
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.gap {
+    gap: .6rem;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.btn {
+    border-radius: 3rem;
+    padding: 8px 35px 10px 35px;
+    border: 2px solid #fdc134;
+    background: #fdc134;
+    color: rgb(9, 94, 71);
+    transition: .5s ease;
+    cursor: pointer;
+}
+
+.btn:hover {
+    outline: #fdc134;
+    background-color: transparent;
+    color: #FFF;
+}
+
+/* navbar related styels */
+nav {
+    padding: .85rem 6.6rem;
+    -webkit-box-shadow: 0px 4px 7px 1.5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 4px 7px 1.5px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 4px 7px 1.5px rgba(0, 0, 0, 0.75);
+}
+
+ul a {
+    text-decoration: none;
+    padding: 0 12px;
+    color: #FFF;
+    font-size: .875rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.dropdown {
+    display: none;
+    /* TODO: add styles to this dropdown and place it under a certain place. */
+}
+
+/* main section designs */
+main {
+    background: linear-gradient(110deg, #213b52 0%, rgb(9, 94, 71) 35%, rgb(9, 95, 71) 100%);
+    color: #FFF;
+    padding: 6.6rem;
+}
+
+main h1 {
+    margin: 0 0 15px 0;
+    font-size: 47px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #d2e0ed;
+}
+
+main h2 {
+    margin-bottom: 1.8rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.course-info {
+    width: 50%;
+}
+
+/* main menu form design */
+.form-section {
+    width: 50%;
+}
+form {
+    border-radius: 12px;
+    background: white;
+    padding: 1rem;
+    color: black;
+}
+form p {
+    color: gray;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: .5rem;
+}
+
+input,
+select,
+textarea {
+    padding: 10px 16px;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.button button{
+    padding: 8px 12px;
+    background: rgb(19, 92, 70);
+    color: #FFF;
+    border: none;
+    margin-bottom: 1rem;
+    border-radius: .25rem;
+
+}
+
+/* .form-section form {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: auto auto auto;
+} */
