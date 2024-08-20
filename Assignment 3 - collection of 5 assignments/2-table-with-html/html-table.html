@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align: center;">Anime Info</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Anime Name</th>
+                <th>Genre</th>
+                <th>Episodes</th>
+                <th>Main Characters</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3">One Piece</td>
+                <td rowspan="3">Adventure, Fantasy</td>
+                <td rowspan="3">1000+</td>
+                <td>Luffy</td>
+            </tr>
+            <tr>
+                <td>Zoro</td>
+            </tr>
+            <tr>
+                <td>Sanji</td>
+            </tr>
+            <tr>
+                <td colspan="2">Naruto</td>
+                <td>720</td>
+                <td>Naruto, Sasuke, Sakura</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Bleach</td>
+                <td rowspan="2">Action, Supernatural</td>
+                <td>366</td>
+                <td>Ichigo</td>
+            </tr>
+            <tr>
+                <td>366</td>
+                <td>Rukia</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+</body>
+
+</html>

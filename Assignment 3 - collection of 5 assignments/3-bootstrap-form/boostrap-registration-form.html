@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Form</title>
+    <link rel="stylesheet" href="assets/bootstrap.min.css">
+    <script src="assets/bootstrap.bundle.min.js"></script>
+
+    <style>
+        label {
+            display: block;
+        }
+    </style>
+</head>
+
+<body class="d-flex justify-content-center bg-success align-items-center">
+    <section class="w-50 bg-white mt-3 rounded-2 p-5 ">
+        <h2 class="text-center">Bangla Fighter Member Registration</h2>
+        <form>
+            <!-- first row -->
+            <div class="input-group flex-nowrap gap-2">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="mobile" class="form-label">Mobile</label>
+                    <input type="text" class="form-control" id="mobile" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="password" required>
+                </div>
+            </div>
+
+            <!-- second row -->
+            <div class="input-group flex-nowrap gap-2">
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email">
+                </div>
+
+                <div class="mb-3">
+                    <label for="emergencyContact" class="form-label">Emergency Contact</label>
+                    <input type="text" class="form-control" id="emergencyContact">
+                </div>
+
+                <div class="mb-3">
+                    <label for="homeDistrict" class="form-label">Home District</label>
+                    <select class="form-select" id="homeDistrict" required>
+                        <option selected disabled>Select District</option>
+                        <option>Sherpur</option>
+                        <option>Netrakona</option>
+                        <!-- Add other districts -->
+                    </select>
+                </div>
+            </div>
+
+            <!-- third row -->
+            <div class="input-group flex-nowrap gap-2 w-100 justify-content-sm-between">
+                <div class="mb-3">
+                    <label for="studyIn" class="form-label">Study In (Diploma Engineering)</label>
+                    <input type="text" class="form-control" id="studyIn">
+                </div>
+
+                <div class="mb-3">
+                    <label for="instituteName" class="form-label">Institute Name</label>
+                    <input type="text" class="form-control" id="instituteName">
+                </div>
+            </div>
+
+            <!-- fourth row -->
+            <div class="input-group flex-nowrap gap-2 w-100 justify-content-between">
+                <div class="mb-3">
+                    <label for="technology" class="form-label">Technology</label>
+                    <select class="form-select" id="technology">
+                        <option selected disabled>Select Technology</option>
+                        <option>Construction</option>
+                        <option>Electronics</option>
+                        <!-- Add other technologies -->
+                    </select>
+                </div>
+
+                <div class="mb-3">
+                    <label for="semester" class="form-label">Semester</label>
+                    <select class="form-select" id="semester">
+                        <option selected disabled>Select Semester</option>
+                        <option>1st</option>
+                        <option>2nd</option>
+                        <!-- Add other semesters -->
+                    </select>
+                </div>
+
+                <div class="mb-3">
+                    <label for="shift" class="form-label">Shift</label>
+                    <select class="form-select" id="shift">
+                        <option selected disabled>Select Shift</option>
+                        <option>First</option>
+                        <option>Second</option>
+                        <option>Not Applicable</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- fifth row -->
+            <div class="input-group gap-2 w-100 justify-content-between">
+                <div class="mb-3">
+                    <label for="presentAddress" class="form-label">Present Address</label>
+                    <textarea class="form-control" id="presentAddress" rows="3" cols=""></textarea>
+                </div>
+
+                <div class="mb-3">
+                    <label for="permanentAddress" class="form-label">Permanent Address</label>
+                    <textarea class="form-control" id="permanentAddress" rows="3" cols=""></textarea>
+                </div>
+            </div>
+
+            <div>
+                <div class="mb-3">
+                    <label for="comment" class="form-label">Comment</label>
+                    <textarea class="form-control" id="comment" rows="3"></textarea>
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary w-100">Register</button>
+        </form>
+    </section>
+
+</body>
+
+</html>
